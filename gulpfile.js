@@ -94,6 +94,18 @@ export function dev() {
 
 }
 
-export const build = series(crop, js, css, imagenes)
+export function html(done) {
+    src('./*.html')        // copia todos los html de la raíz
+        .pipe(dest('build'))
+    done()
+}
 
-export default series( crop, js, css, imagenes, dev )
+export function videos() {
+    return src('./video/**/*', { encoding: false })
+        .pipe(dest('build/video'));
+}
+
+
+export const build = series( html, crop, js, css, imagenes, videos )
+
+export default series( html, crop, js, css, imagenes, dev, videos )
