@@ -45,3 +45,22 @@ festivalprueba-lg/
 ├── index.html # Página principal del festival
 
 └── package.json # Dependencias y scripts del proyecto 
+
+## Buenas prácticas aplicadas
+
+- **Código modular**: SCSS dividido en parciales para mantener los estilos organizados y escalables.
+    
+- **Mobile-first**: La estructura de estilos y layout parte desde dispositivos móviles hacia pantallas más grandes.
+    
+- **Optimización de assets**: Minificación de CSS y JS, optimización de imágenes y videos mediante tareas de Gulp.
+    
+- **Semántica HTML**: Uso adecuado de etiquetas semánticas para mejor accesibilidad.
+   
+- **Convenciones BEM** para organizar clases y evitar colisiones.
+   
+- **JavaScript limpio y enfocado**: Funciones específicas para galeria, animaciones, interacción y manipulación del DOM.
+   
+- **Sistema de build automatizado** con Gulp para mantener un flujo de trabajo eficiente y reproducible.
+   
+- **Versionado con Git** siguiendo commits descriptivos y organización clara del historial.
+
