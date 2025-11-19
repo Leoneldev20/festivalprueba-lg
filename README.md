@@ -1,4 +1,4 @@
-# Techno & EDM Festival – Landing Page de Festival Electrónico
+# Techno & EDM Festival
 
 Landing page interactiva para un festival de música electrónica, enfocada en performance, estética moderna y una experiencia de usuario fluida.
 La interfaz integra elementos multimedia y componentes interactivos desarrollados en JavaScript, como una galería dinámica y animaciones suaves que mejoran la navegación.
